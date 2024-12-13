@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap");
+
+body {
+  background: radial-gradient(circle, #3bb8c1 0%, #1c575b 100%);
+  display: flex;
+  justify-content: center;
+}
+
+.main {
+  background-color: white;
+  border-radius: 50px;
+  width: 50vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 25px 0px 75px 0px;
+  box-shadow: #00000025 5px 5px 5px;
+}
+
+@media (max-width: 700px) {
+  body {
+    width: 80vw;
+  }
+}
+h1 {
+  font-family: "Silkscreen", sans-serif;
+  font-weight: 500;
+  color: #1b565a;
+  padding: auto;
+  font-size: 3rem;
+}
+
+.drum-buttons {
+  display: flex;
+  flex-direction: column;
+}
+
+.row1,
+.row2,
+.row3 {
+  display: flex;
+  flex-direction: row;
+}
+
+.drum-box {
+  border-radius: 25px;
+  height: 175px;
+  width: 175px;
+  margin: 10px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  box-shadow: #00000025 5px 5px 5px;
+}
+
+#clap {
+  background: radial-gradient(circle, #ffacc6 0%, #996777 100%);
+}
+
+#Hihat {
+  background: radial-gradient(circle, #8e6ef4 0%, #52408e 100%);
+}
+
+#Kick {
+  background: radial-gradient(circle, #75c9e5 0%, #416f7f 100%);
+}
+#Openhat {
+  background: radial-gradient(circle, #5ed16f 0%, #306b39 100%);
+}
+
+#Ride {
+  background: radial-gradient(circle, #dee564 0%, #7b7f37 100%);
+}
+
+#Snare {
+  background: radial-gradient(circle, #fbff00 0%, #969900 100%);
+}
+
+#Tink {
+  background: radial-gradient(circle, #e5934c 0%, #7f522a 100%);
+}
+
+#Tom {
+  background: radial-gradient(circle, #ff8800 0%, #995200 100%);
+}
+
+#Vibraslap {
+  background: radial-gradient(circle, #ff0404 0%, #990303 100%);
+}
+
+img {
+  height: 75px;
+  width: 75px;
+}
+
+.drum-box div,
+.drum-box img {
+  font-family: "sofia-sans", sans-serif;
+  color: #ffffff;
+  font-weight: 700;
+  padding: 5px;
+  font-size: 1.25rem;
+}
